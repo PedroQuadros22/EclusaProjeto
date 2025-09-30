@@ -12,20 +12,20 @@ e utiliza uma **interface gráfica em Swing**.
 * Validação de compatibilidade de tamanho/capacidade.
 * Interface gráfica para interação do usuário.
 * Tratamento de erros específicos (ex.: embarcação muito grande para a eclusa).
-* 
+  
 ## Estrutura do Projeto
 
 * **Model** → contém as classes principais do domínio (embarcações, capitão, eclusa, tamanhos).
 * **Controller** → gerencia a lógica e conecta interface com as regras de negócio.
 * **View** → telas gráficas (Swing) para cadastro, remoção e gerenciamento de embarcações.
 * **Exception** → tratamento de erros específicos, como incompatibilidade de tamanho.
-* 
+  
 ## Tecnologias
 
 * **Java 17+**
 * **Maven** para gerenciamento do projeto
 * **Swing** para interface gráfica
-* 
+  
 ## Estrutura de Pastas
 
 ```
